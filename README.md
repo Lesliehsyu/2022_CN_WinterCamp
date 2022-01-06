@@ -1,6 +1,6 @@
-# 2021 面向领域的定制计算冬令营
+# 2022 开源定制计算冬令营
 
-![image](image/WinterCAMP2021-1.PNG)
+![image](image/Winter_CAMP22.jpg)
 
 ## Introduction:
 2021年1月25日至2月5日，为期两周的冬令营*由CCF体系结构专委会主办，北京大学高能效计算与应用中心与Xilinx学术合作联合承办。  
