@@ -5,80 +5,51 @@
 ## Introduction:
 2021年1月25日至2月5日，为期两周的冬令营*由CCF体系结构专委会主办，北京大学高能效计算与应用中心与Xilinx学术合作联合承办。  
 北京大学，清华大学，计算所，浙江大学，北京工业大学，Xilinx等来自学术界工业界多位学者和资深工程师分享研讨了定制计算的前沿方向。  
-本次冬令营同时也介绍了**Xilinx Adaptive Compute Clusters（XACC)**，以下为XACC项目的链接：
-*  [Xilinx Adaptive Compute Clusters](https://xilinx.github.io/xacc/)
 
 ## Agenda
-**第一周**为HLS强化班，对Vivado HLS的基本原理，性能优化细节和相关编程技巧都进行了充足的实践    
-**第二周**以面向以下领域介绍了的计算加速从算法到硬件，同时也帮助学员们熟悉了Vitis工具的使用  
-*-VITIS技术深度剖析  
--深度学习加速器  
--数据库  
--图计算  
--存储与网络  
--虚拟化技术* 
+| **模块** | **时间**             | **内容**                             | **对象**                                                     |
+| -------- | -------------------- | ------------------------------------ | ------------------------------------------------------------ |
+| 1        | 1月10-12日 每天2小时 | Vitis HLS 入门（选听）               | 对HLS，计算机体系结构不熟悉的学员                            |
+|          | 1月10日晚 8点        | HLS 设计原则入门                     | Register  in advance for this webinar:   https://xilinx.zoom.us/webinar/register/WN_W1vqH2eNThyCfcMQvBpdRg |
+|          | 1月11日 白天         | 自行安排观看已录制Vivado HLS原理视频 | [Xilinx冬令营答疑文档](https://docs.qq.com/doc/DSlB1R1Z2Rm55Z3Nw) |
+|          | 1月11日晚8点         | 从Vivado  HLS 到Vitis HLS设计流程    | Register  in advance for this webinar:   https://xilinx.zoom.us/webinar/register/WN_W1vqH2eNThyCfcMQvBpdRg |
+|          | 1月12日              | 自行完成实验                         | [Xilinx冬令营答疑文档](https://docs.qq.com/doc/DSlB1R1Z2Rm55Z3Nw) |
+|          | 1月13日 下午 2点     | Vitis 与Versal架构入门               | Register  in advance for this webinar:   https://xilinx.zoom.us/webinar/register/WN_6uW_s5r0R3K-dmEBPnY-0Q |
+| 2        | 1月14日              | 完成Vitis  HLS 入门小测验            | 全部学员                                                     |
+| 3        | 1月17日 全天         | DAC, LPCV, CCC,XACC等获奖项目分享    | 全部学员                                                     |
+| 4        | 1月18日 开始         | 提供软硬件资源并指导完成科研项目尝试 | 项目计划获得批准的学员                                       |
 
-日期 | 主题
--|-
-1月25日 | HLS原理，HLS Lab 1-2
-1月26日 | HLS性能优化，HLS Lab 3-4
-1月27日 | HLS编程技巧讨论，PYNQ框架
-1月28日 | 实验：深度学习加速器HLS设计，实验：PP4FPGAs
-1月29日 | HLS深度学习加速器设计与课程研讨
-2月1日 | **讲座** *面向机器学习的可重构计算，VITIS技术深度剖析* **实验**：VITIS Intro Part1 Part2
-2月2日 | **讲座** *定制AI加速器设计，DAC2020-SDC冠军队伍作品分享，HBM性能优化* **实验**：VITIS Improving Performance
-2月3日 | **讲座** *Parallel graph processing on heterogenous architectures*，**实验** *VITIS Open Source Lib*
-2月4日 | **讲座** *SmartSSD-数据与计算存储，Towards Distributed Adaptive Computing* 
-2月5日 | **讲座** *FPGA虚拟化，FPGA云编译平台YEDA，资源分享*
-2月6日-3月6日  | 项目设计期
 
 ## Course Materials:
 * [HLS Hands-on Labs](https://github.com/xupgit/High-Level-Synthesis-Flow-on-Zynq-using-Vivado-HLS)
 * [Vitis Hands-on Labs](https://xilinx.github.io/xup_compute_acceleration/)
 
+## Invited Talks
+
+### 1.17上午
+
+| **时间**    | **题目**                                  | **报告人** | **学校**         |
+| ----------- | ----------------------------------------- | ---------- | ---------------- |
+| 9:30-9:50   | 基于神经网络的心肺音分离系统              | 李宗       | 武汉大学         |
+| 9:50-10:10  | 基于FPGA的一种抗量子数字签名加密          | 徐嘉睿     | 南方科技大学     |
+| 10:10-10:30 | 基于单目深度估计网络的全息显示终端        | 王瑞青     | 西安电子科技大学 |
+| 10:30-10:50 | 基于RISC-V的积木式可拼接图形化编程系统    | 郑健       | 成都信息工程大学 |
+| 10:50-11:10 | 基于边缘计算的低功耗全时空生态监控系统    | 贾凝心     | 西安邮电大学     |
+| 11:10-11:30 | 基于ZYNQ FPGA的高精度双目光学定位导航系统 | 邢傲然     | 南方科技大学     |
+
+### 1.17下午
+
+| **时间**    | **题目**                                                     | **报告人**     | **学校**          |
+| ----------- | ------------------------------------------------------------ | -------------- | ----------------- |
+| 14:00-14:30 | CCC比赛初赛第一名队伍分享                                    | 岑宗俊，赵宗耀 | 清华大学          |
+| 14:30-15:00 | CCC比赛冠军队伍分享                                          | 刘心哲，孙豪   | 上海科技大学      |
+| 15:00-15:30 | ThundeRiNG:  Generating Multiple Independent Random Number Sequences on FPGAs | Hongshi Tan    | 新加坡国立大学    |
+| 15:30-16:00 | ICCV-LPCV 冠军队伍分享                                       | 龚睿昊         | 商汤科技/北京大学 |
+| 16:00-16:30 | 基于数据流的目标探测网络加速器DAC-SDC’21冠军队伍分享         | 姜伟雄         | 上海科技大学      |
+
 ## Other Materials:
-关于更多信息也可以访问公众号获得  
+
+关于更多信息也可以访问公众号获得，学堂->进阶教程中会公布每日视频回放  
 
 ![image](image/qrcode_Pynq_small.jpg)
 
-## Featured Projects
-
-No. | Team Member | Project Name | Status
--|-|-|-
-1| 孔祥聪 黄莹| [Algorithm-hardware co-design for pulsar coherent de-dispersion algorithm on FPGA.](https://github.com/kongxiangcong/Pulsar-FPGA)| 完成
-2| 张锦玉 | [基于FPGA的模型预测控制算法加速](https://github.com/zhang-jinyu/IIoT-SPYN/tree/2021_CN_WinterCamp)| 完成
-3| 卢浩迪 | [FPGA-based data migration of network access](https://github.com/Lhoddy/fpga_demo) | 完成
-4| 任骥恺 | [HLS Implementation of LZ77 Data Compression Algorithm](https://github.com/bjrjk/HLS-LZ77) | 完成
-5| 王璇铮 吴震宇  | [Stencil computation on FPGA](https://github.com/KevinLikesDringCoffe/Stencil-computation-on-FPGA) | 完成
-6| 杨雨昕 宋涛 | [A Study of Inverse Kinematics Algorithm and Its System Architecture Implementation](https://github.com/CICS-ICT/ik-acceleration) | 完成
-7| 杜泽林 | [Accelerate the tiny-yolov2](https://github.com/duzelin/Convor.git) | 完成
-
-## Other Projects
-
-No. | Team Member | Project Name | Status
--|-|-|-
-1| 郭慧 罗云臻| [利用Vitis AI部署CNN模型](https://github.com/CSU-GH/XilinxWinterCampProject)| 完成
-2| 陈超 | [使用HLS功能实现熵计算的数字电路计算IP](https://github.com/AllenChenChao/20210208HLS_for_entropy)| 完成
-3| 戴卓辰 | [人脸检测](https://github.com/XS30/Face-detection-in-PYNQ) | 完成
-4| 陈桂荣 | [多通道卷积，通过脉动阵列实现性能优化](https://github.com/minicarbon/winter_camp_project) | 完成
-5| 陈相任 | [Partial hardware implementation of Groth16 algorithm](https://github.com/chenxiangren1/Groth16) | 完成
-6| 刘珂，曹美|[基于PYNQ的Resize算法加速设计](https://github.com/onWayforever/Xilinx_winterCamp/blob/master/readMe.md)| 完成
-7| 姚博文 |[基于ZYNQ和AlexNet网络实现手写数字识别](https://github.com/yobuwen/hello-one) | 完成
-8| 王光华 | [A project accelerate the CNN and deformable CNN in FPGA board](https://github.com/meicale/Acc_DeCNN_on_FPGA) | 完成
-9| 周洪涛 |[二值图标记算法](https://github.com/ZhouHunt/Two-Scan-Labeling-implemented-on-FPGA) | 完成
-10| Introspecting| [DepthwiseCONV-HLS](https://github.com/Introspecting/DepthwiseCONV-HLS) | 完成
-11| 周炎亮 | [Using FPGAs to accelerate BFS algorithm](https://github.com/triode-zyl/BFS-on-FPGA) | 完成
-12| 赵海旭| [利用FPGA提升SHA256加密算法速度](https://github.com/zhaohaixu/SHA256-FPGA-HLS) | 完成
-13| 于大江 | [FAST-algorithm-for-corner-detection](https://github.com/djgq2020/FAST-algorithm-for-corner-detection/blob/main/README.md) | 完成
-14| 李坚松 | [VTA: Deep Learning Accelerator Stack](https://gitee.com/json-lee/fpga-getting-started ) | 完成
-15| 韩萌 | [tinyFPS:HLS-based Farthest point sampling Accelerator](https://github.com/hanm2019/tinyFPS) | 完成
-16| 周聪 | [SRC-Vitis](https://github.com/sazczmh/SRC-Vitis) | 完成
-17| 任兴 | [Signal tracking based on LMS](https://github.com/rx978871284/Signal-tracking-based-on-LMS.git) | 完成
-18| 姜有亮 | [基于Ultra96-V2平台加速一种卷积神经网络](https://github.com/cocoyomi/Accelerate-ConvNet-on-Ultra96V2) | 完成
-19| 陆韦辛| [latex文本识别]( https://github.com/aceansgar/latex_recognition/blob/main/readme.md) | 待更新
-20| 丁圣杰| [智能硬件加速器的搭建](https://github.com/AI-Unicorn-D/Design-of-accelerator-based-on-zcu104/blob/main/README.md)| 待更新
-21| 边浩东 | [设计高性能并行接口SpMV](https://github.com/nulidangxueshen/2021_Xilinx_FPGA_SpMV/blob/main/README.md) | 待更新
-22| 郭进阳 | [BFS Evaluation index](https://github.com/Jinyang-Guo/HBM-BFS) | 待更新
-23| 谢坤鹏 | [基于Alveo平台的眼底网络实现 尝试使用FINN框架部署lenet5网络模型](https://github.com/xiekunpeng/Xilinx_Wintercamp) | 待更新
-24| 于泽霖 | [A simple MIPS-like CPU demo in C++ for Xilinx Vivado HLS](https://github.com/junglehust/Vivado_HLS-Demo/blob/main/README.md) | 待更新
-25| 徐诚 | [从HLS层面将HBM与图算法相结合,实现pagerank或bfs算法](https://github.com/jerryxucheng/vitis) | 待更新
