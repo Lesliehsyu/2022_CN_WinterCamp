@@ -1,28 +1,23 @@
 # 2022 开源定制计算冬令营
 
-![image](image/winter_camp22.jpg)
+![image](image/winter_camp22.png)
 
 ## Introduction:
 2021年1月25日至2月5日，为期两周的冬令营*由CCF体系结构专委会主办，北京大学高能效计算与应用中心与Xilinx学术合作联合承办。  
 北京大学，清华大学，计算所，浙江大学，北京工业大学，Xilinx等来自学术界工业界多位学者和资深工程师分享研讨了定制计算的前沿方向。  
 
 ## Agenda
-| **模块** | **时间**             | **内容**                             | **对象**                                                     |
+| **模块** | **时间**             | **内容**                             | 备注                                                         |
 | -------- | -------------------- | ------------------------------------ | ------------------------------------------------------------ |
 | 1        | 1月10-12日 每天2小时 | Vitis HLS 入门（选听）               | 对HLS，计算机体系结构不熟悉的学员                            |
-|          | 1月10日晚 8点        | HLS 设计原则入门                     | Register  in advance for this webinar:   https://xilinx.zoom.us/webinar/register/WN_W1vqH2eNThyCfcMQvBpdRg |
-|          | 1月11日 白天         | 自行安排观看已录制Vivado HLS原理视频 | [Xilinx冬令营答疑文档](https://docs.qq.com/doc/DSlB1R1Z2Rm55Z3Nw) |
-|          | 1月11日晚8点         | 从Vivado  HLS 到Vitis HLS设计流程    | Register  in advance for this webinar:   https://xilinx.zoom.us/webinar/register/WN_W1vqH2eNThyCfcMQvBpdRg |
-|          | 1月12日              | 自行完成实验                         | [Xilinx冬令营答疑文档](https://docs.qq.com/doc/DSlB1R1Z2Rm55Z3Nw) |
-|          | 1月13日 下午 2点     | Vitis 与Versal架构入门               | Register  in advance for this webinar:   https://xilinx.zoom.us/webinar/register/WN_6uW_s5r0R3K-dmEBPnY-0Q |
+|          | 1月10日晚 8点        | HLS 设计原则入门                     |                                                              |
+|          | 1月11日 白天         | 自行安排观看已录制Vivado HLS原理视频 |                                                              |
+|          | 1月11日晚8点         | 从Vivado  HLS 到Vitis HLS设计流程    |                                                              |
+|          | 1月12日              | 自行完成实验                         | 实验链接  [HLS Hands-on Labs](https://github.com/xupgit/High-Level-Synthesis-Flow-on-Zynq-using-Vivado-HLS) [Vitis Hands-on Labs](https://xilinx.github.io/xup_compute_acceleration/) |
+|          | 1月13日 下午 2点     | Vitis 与Versal架构入门               |                                                              |
 | 2        | 1月14日              | 完成Vitis  HLS 入门小测验            | 全部学员                                                     |
 | 3        | 1月17日 全天         | DAC, LPCV, CCC,XACC等获奖项目分享    | 全部学员                                                     |
 | 4        | 1月18日 开始         | 提供软硬件资源并指导完成科研项目尝试 | 项目计划获得批准的学员                                       |
-
-
-## Course Materials:
-* [HLS Hands-on Labs](https://github.com/xupgit/High-Level-Synthesis-Flow-on-Zynq-using-Vivado-HLS)
-* [Vitis Hands-on Labs](https://xilinx.github.io/xup_compute_acceleration/)
 
 ## Invited Talks
 
